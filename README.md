@@ -90,3 +90,11 @@ You will see a privacy warning. Just ignore the warning, click on Advanced and t
 ```bash
  kubectl edit secret argocd-initial-admin-secret -n argocd
 ```
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/b1fb7347-05f3-456f-a6e7-9972bc24c009">
+
+
+```bash 
+kubectl get deploy 
+```
+
