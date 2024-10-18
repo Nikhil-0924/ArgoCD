@@ -82,5 +82,11 @@ You will see a privacy warning. Just ignore the warning, click on Advanced and t
 
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/a24b0937-19f6-49ea-94e7-6ae45de79d49">
 
+# Get the initial password for the admin user to log in
+```bash
+ kubectl get secret -n argocd
+```
 
-
+```bash
+ kubectl edit secret argocd-initial-admin-secret -n argocd
+```
