@@ -76,3 +76,11 @@ By default, the ArgoCD server is not exposed outside the cluster. You can expose
 kubectl port-forward svc/argocd-server -n argocd --address 0.0.0.0 8080:443
 ```
 The ArgoCD UI will be available at http://localhost/IP:8080. Access it through your web browser.
+
+
+You will see a privacy warning. Just ignore the warning, click on Advanced and then hit on Proceed to localhost (unsafe) to continue to the GUI interface. (Your browser setting may present a different option to continue).
+
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/a24b0937-19f6-49ea-94e7-6ae45de79d49">
+
+
+
