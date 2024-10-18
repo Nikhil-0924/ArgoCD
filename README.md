@@ -98,3 +98,5 @@ You will see a privacy warning. Just ignore the warning, click on Advanced and t
 kubectl get deploy 
 ```
 
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/f79e052d-bc7f-45d1-a058-b6cd6463f714">
